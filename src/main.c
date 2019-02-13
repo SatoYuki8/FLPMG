@@ -26,9 +26,9 @@ void first_message(){
 	 "\x1b[36m"      //cian
 	 "           frac=<m> "
 	 "\x1b[39m"      //return
-	 ": m bits mantissa\n"
+	 ": m bits fraction\n"
 	 "  filename=<string> : SFL is output in the <string> (default:FPAdd_n_m_<n+m>.sfl)\n"
-	 "           pipeline : Generate 5steps pipeline version\n"
+	 "           pipeline : Generate 5stages pipeline version\n"
 	 "            wrapper : Wrapper module for delay measurement is created\n"
 	 "\n"
 	 "\x1b[31m"      //red
@@ -40,9 +40,9 @@ void first_message(){
 	 "\x1b[36m"      //cian
 	 "           frac=<m> "
 	 "\x1b[39m"      //return
-	 ": m bits mantissa\n"
+	 ": m bits fraction\n"
 	 "  filename=<string> : SFL is output in the <string> (default:FPMult_n_m_<n+m>.sfl)\n"
-	 "           pipeline : Generate 4steps pipeline version\n"
+	 "           pipeline : Generate 4stages pipeline version\n"
 	 "            wrapper : Wrapper module for delay measurement is created\n"
 	 "             DSP=no : Using Mutiplier Module insted of Operator.\n"
 	 "\n"
