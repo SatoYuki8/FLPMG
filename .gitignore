@@ -1,0 +1,10 @@
+*.o
+*.sfl
+*.v
+*~
+bin/
+scr/
+fpmult/
+fpadd/
+measure/
+quartus_executor
