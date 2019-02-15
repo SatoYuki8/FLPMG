@@ -28,7 +28,7 @@ $(SRCDST)sub_module.o:	$(SRCDST)sub_module.c  $(SRCDST)generator_head.h
 $(SRCDST)sub_module.c:
 	$(GCC) -c $@ $(OPT)
 
-bin:
+bin/:
 	mkdir bin/
 
 ###########################################################
